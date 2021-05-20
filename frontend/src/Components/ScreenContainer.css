@@ -1,0 +1,30 @@
+/* use this class to wrapping <header> to <footer> elements-:
+<div className="SCREEN-CONTAINER">
+    <Header />
+    <Main />
+    <Footer />
+</div>
+*/
+.SCREEN-CONTAINER {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* use this class in your <main> element-:
+  export default function Main() {
+    return (
+      <div className="MAIN">
+        <Content1 />
+        <Content2 />
+      </div>
+    );
+  }
+   */
+  .MAIN {  
+    flex: 1;
+    /* if header navbar is fixed  */
+     padding-top: 100px; 
+  }
+  
+  

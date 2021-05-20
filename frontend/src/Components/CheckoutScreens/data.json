@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "1",
+    "region": "Muzaffarpur",
+    "country_code": "MUZ",
+
+    "languages": [
+      {
+        "name": "Hotel The Park",
+        "code": "MUZ1"
+      },
+      {
+        "name": "The Central Park",
+        "code": "MUZ2"
+      },
+      {
+        "name": "Kalpana Dream House",
+        "code": "MUZ3"
+      },
+      {
+        "name": "The Cinemon",
+        "code": "MUZ4"
+      },
+      {
+        "name": "Brewbakes",
+        "code": "MUZ5"
+      },
+      {
+        "name": "Food Garden",
+        "code": "MUZ6"
+      },
+      {
+        "name": "Delhi Darbar",
+        "code": "MUZ7"
+      },
+      {
+        "name": "Hotel Gayatri Palace",
+        "code": "MUZ8"
+      },
+      {
+        "name": "Hotel Shivam inn",
+        "code": "MUZ9"
+      },
+      {
+        "name": "Food Court",
+        "code": "MUZ10"
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "region": "Patna",
+    "country_code": "PAT",
+
+    "languages": [
+      {
+        "name": "Patna restaurant 1",
+        "code": "PT1"
+      },
+      {
+        "name": "Patna restaurant 2",
+        "code": "PT2"
+      }
+    ]
+  }
+]

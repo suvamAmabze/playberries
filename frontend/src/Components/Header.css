@@ -1,0 +1,70 @@
+header {
+  background-color: #fff;
+  border-bottom: 4px solid #b78c33;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: 0.6s;
+ 
+}
+.NAV-right{
+  padding: 0 30px 0 30px;
+}
+.sticky {
+  background: #f7f7f2;
+  
+}
+ 
+.NAV-ITEM {
+  /* margin: 5px; */
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+span {
+  color: #696969;
+  transition: all 0.3s;
+}
+span:hover {
+  color: black;
+}
+.logo {
+  width: 100px;
+}
+ 
+#collasible-nav-dropdown {
+  color: black;
+}
+
+.Hamburger-button {
+  background-color: black;
+}
+
+.dropdown-item {
+  background: #f7f7f2;
+  text-align: center;
+   
+}
+ 
+.dropdown-menu {
+  padding: 0;
+}
+
+/* signin signout */
+/* .dropdown{
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content{
+  position: absolute;
+  display: none;
+  min-width: 12rem;
+  padding: 1rem;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+} */

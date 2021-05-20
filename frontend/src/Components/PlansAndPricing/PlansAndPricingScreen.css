@@ -1,0 +1,51 @@
+/* Veg component */
+.food-menu-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+.food-menu-item {
+  margin: 20px auto 20px auto;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+.food-menu-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  padding: 20px;
+}
+.food-title {
+  color: #b78c33;
+  font-size: 1.3rem;
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+.food-price {
+  background: #f7f7f2;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.food-items {
+  padding: 10px;
+}
+.food-items p {
+    margin: 1px;
+}
+.spoonPointer {
+  color: #b78c33;
+}
+.item-buy {
+  background: #f7f7f2;
+  padding: 10px;
+}
+ 
+ 
+ 
+ 

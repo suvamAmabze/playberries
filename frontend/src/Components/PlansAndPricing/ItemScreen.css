@@ -1,0 +1,65 @@
+.ItemScreenContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  hyphens: auto;
+  border-top: 4px solid #e7e7e7;
+}
+.ItemScreenImage {
+  margin: 40px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 5px solid #b78c33;
+}
+.ItemScreenInfo {
+  margin: 40px;
+  width: 250px;
+  height: 250px;
+}
+.AddCartCard {
+  margin: 40px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+  border-top: 3px solid #e7e7e7;
+  border-left: 3px solid #e7e7e7;
+
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.CartBigIncon {
+  font-size: 50px;
+  color: #b78c33;
+}
+.calculation-pricePerPerson {
+  padding: 10px;
+  /* font-weight: 800;
+    font-size: 18px; */
+}
+.qtySelector {
+  padding: 3px;
+  font-size: 20px;
+  border: 1px solid #e7e7e7;
+}
+
+@media only screen and (max-width: 600px) {
+  .ItemScreenInfo,
+  .AddCartCard{
+    margin: 20px;
+    height: auto;
+     
+  }
+}
